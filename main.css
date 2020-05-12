@@ -107,7 +107,8 @@ footer {
 
 @media (min-width: 600px) {
 	.main nav, .content {
-  	display: block;	
+  	display: block;
+		text-align: center;
 	}
 	nav a{
 		display: inline-block;
