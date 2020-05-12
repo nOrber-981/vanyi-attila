@@ -54,7 +54,11 @@ nav a {
 .banner {
 	border-radius: 13px;
 }
-
+td {
+	width: auto;
+	padding: 0 .5rem;
+	font-size: 1.3rem;
+}
 nav {
 	width: 19%;
 	height: auto;
@@ -108,7 +112,6 @@ footer {
 @media (min-width: 600px) {
 	.main nav, .content {
   	display: block;
-		text-align: center;
 	}
 	nav a{
 		display: inline-block;
@@ -119,15 +122,20 @@ footer {
 		width: 100%;
 	}
 	.content {
-		width: 100%;
+		width: 80%;
 		margin: auto;
 	}
 	.img-box {
 		width: 33%;
 		display: inline-block;
 		vertical-align: top;
+	}
 }
-}
+	
+.cookies {
+	position: absolute;
+	bottom: 3rem;
+	}
 
 
 
