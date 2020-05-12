@@ -97,6 +97,13 @@ footer {
 	vertical-align: top;
 	margin-bottom: 1rem;
 }
+.content a {
+	color: black;
+}
+
+.content img {
+	width: 100%;
+}
 
 @media (min-width: 600px) {
 	.main nav, .content {
@@ -114,9 +121,14 @@ footer {
 		width: 100%;
 		margin: auto;
 	}
+	.img-box {
+		width: 33%;
+		display: inline-block;
+		vertical-align: top;
+}
 }
 
 
-.content a {
-	color: black;
-}
+
+
+
